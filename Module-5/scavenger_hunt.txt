@@ -1,0 +1,9 @@
+**Summary of Classification Algorithms from Scikit-learn Documentation**
+
+For this part of the assignment, I researched the Scikit-learn documentation and found three interesting classification algorithms that we didn't cover in detail in the module. Here is a summary of what I learned about them:
+
+**1. Random Forest:** This algorithm is a type of ensemble learning, which means it combines multiple models to get a better result. It creates a "forest" of decision trees and then takes a vote from them to decide the final class. I found that it's good for datasets with a lot of features and it's not as likely to overfit as a single decision tree. It doesn't need a lot of preprocessing, but I read that feature scaling can still be helpful.
+
+**2. Gradient Boosting:** This is another ensemble method, but it builds the decision trees one after another, with each new tree trying to fix the mistakes of the previous one. It seems very powerful and can work on a lot of different kinds of data. The documentation mentioned that it's important to be careful with the settings (hyperparameters) to avoid overfitting, and that it's a good idea to scale the features before using it.
+
+**3. Support Vector Machines (SVMs):** SVMs work by finding the best line or boundary (called a hyperplane) to separate the data into different classes. I learned that they are good for datasets with many dimensions and don't use a lot of memory. They also seem very flexible because you can use different "kernels" to work with different kinds of data. The documentation really emphasized that you need to scale your data for SVMs to work well.

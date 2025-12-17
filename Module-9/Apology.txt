@@ -1,0 +1,3 @@
+Apologies for the late submission. This project was challenging because it involved a 4D state space (Position, Energy, Fatigue), which meant the Q-Learning algorithm had to run for hundreds of thousands of steps to learn the rare "wolf kill" reward. At first, the code ran in a long loop and took several hours to process, making progress slow.
+
+The solution successfully teaches Peter similar to training a dog with treats to manage his resources, like resting or eating apples, before confronting the wolf. The final strategy shows a clear improvement compared to acting randomly.

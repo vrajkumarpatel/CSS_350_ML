@@ -1,0 +1,17 @@
+Imagine you're teaching a dog a new trick using treats. That's basically what we're doing with the computer program, "Peter."
+
+1.  **The Goal:** We want Peter to learn how to survive and win the game by defeating the wolf.
+
+2.  **The "Brain":** The computer has a "brain," which is like a giant cheat sheet or a big table. This table has a row for every possible situation Peter can be in (his location, his energy level, and his fatigue level).
+
+3.  **Learning by Trial and Error:**
+    *   At first, Peter has no idea what to do. He just wanders around the game board randomly.
+    *   Every time he takes an action, we give him a "reward" or a "punishment."
+    *   **Good things (Rewards):** If he eats an apple, his energy goes up (a small reward!). If he rests, his fatigue goes down (another small reward!). If he finally defeats the wolf, he gets a HUGE reward.
+    *   **Bad things (Punishments):** Moving around costs him energy and makes him tired (a small punishment). If he tries to fight the wolf when he's too weak and loses, he gets a BIG punishment.
+
+4.  **Updating the Brain:** Every time Peter gets a reward or punishment, he updates his "cheat sheet" for the action he just took in that specific situation. An action that led to a reward gets a higher score, and an action that led to a punishment gets a lower score.
+
+5.  **Getting Smarter:** After playing the game thousands and thousands of times, the cheat sheet is full of scores. Peter stops wandering randomly and starts using the cheat sheet to make decisions. In any situation, he just picks the action with the highest score—the one that, based on his experience, is most likely to lead to a good outcome.
+
+In short, the computer plays the game over and over, learning from its mistakes and successes, until it figures out the best strategy to win. This is why the "trained" Peter is much more successful than the one that just walks around randomly.
